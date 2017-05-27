@@ -114,12 +114,9 @@ kExitOnFailure = 0
 # Edit this to point to your Wing installation or set to None to use env WINGHOME
 # On OS X this must be set to name of the Wing application bundle
 # (for example, /Applications/WingIDE.app)
-<<<<<<< HEAD
-WINGHOME = r"C:\Program Files (x86)\Wing IDE 6.0"
-# WINGHOME="/usr/lib/wingide6"
-=======
+# WINGHOME = r"C:\Program Files (x86)\Wing IDE 6.0"
 WINGHOME="/usr/lib/wingide6"
->>>>>>> 009737bc9fe68a6b2230bb68195daec29b834785
+
 
 if sys.hexversion >= 0x03000000:
   def has_key(o, key):
