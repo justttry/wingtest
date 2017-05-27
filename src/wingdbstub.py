@@ -114,8 +114,8 @@ kExitOnFailure = 0
 # Edit this to point to your Wing installation or set to None to use env WINGHOME
 # On OS X this must be set to name of the Wing application bundle
 # (for example, /Applications/WingIDE.app)
-# WINGHOME = r"C:\Program Files (x86)\Wing IDE 6.0"
-WINGHOME="/usr/lib/wingide6"
+WINGHOME = r"C:\Program Files (x86)\Wing IDE 6.0"
+# WINGHOME="/usr/lib/wingide6"
 
 
 if sys.hexversion >= 0x03000000:
