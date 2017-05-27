@@ -1,0 +1,87 @@
+================================================================================
+Wing Debug Log File
+This file can be used to diagnose problems in debugger internals
+For help, contact support@wingware.com
+================================================================================
+
+--------------------------------------------------------------------------------
+STARTING NEW DEBUG LOGGING SESSION
+--------------------------------------------------------------------------------
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'netserver CLOSECHANNEL' 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Bound attach listener to port' 50015 
+wingdbg - 2017/05/27 03:22:14 - 3310 - '******************** START DEBUG ************************' 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'ABOUT TO INIT' 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'SET UP C CORE' 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'wingbase' from '/usr/lib/wingide6/bin/dbg/src/wingbase/__init__.py'> '; ' "'/usr/lib/wingide6/bin/dbg/src/wingbase/__init__.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'wingbase.py2utils' from '/usr/lib/wingide6/bin/dbg/src/wingbase/py2utils.py'> '; ' "'/usr/lib/wingide6/bin/dbg/src/wingbase/py2utils.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'wingbase.pyutils' from '/usr/lib/wingide6/bin/dbg/src/wingbase/pyutils.py'> '; ' "'/usr/lib/wingide6/bin/dbg/src/wingbase/pyutils.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'wingbase.miscutils' from '/usr/lib/wingide6/bin/dbg/src/wingbase/miscutils.py'> '; ' "'/usr/lib/wingide6/bin/dbg/src/wingbase/miscutils.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'wingbase.fileutils' from '/usr/lib/wingide6/bin/dbg/src/wingbase/fileutils.py'> '; ' "'/usr/lib/wingide6/bin/dbg/src/wingbase/fileutils.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver' from '/usr/lib/wingide6/src/debug/tserver/__init__.py'> '; ' "'/usr/lib/wingide6/src/debug/tserver/__init__.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver.abstract' from '/usr/lib/wingide6/bin/dbg/src/debug/tserver/abstract.py'> '; ' "'/usr/lib/wingide6/bin/dbg/src/debug/tserver/abstract.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver.dbginspect' from '/usr/lib/wingide6/bin/dbg/src/debug/tserver/dbginspect.py'> '; ' "'/usr/lib/wingide6/bin/dbg/src/debug/tserver/dbginspect.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver.findmodules' from '/usr/lib/wingide6/bin/dbg/src/debug/tserver/findmodules.py'> '; ' "'/usr/lib/wingide6/bin/dbg/src/debug/tserver/findmodules.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver._tkinterhooks' from '/usr/lib/wingide6/src/debug/tserver/_tkinterhooks.py'> '; ' "'/usr/lib/wingide6/src/debug/tserver/_tkinterhooks.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver.dbgserver' from '/usr/lib/wingide6/bin/dbg/src/debug/tserver/dbgserver.py'> '; ' "'/usr/lib/wingide6/bin/dbg/src/debug/tserver/dbgserver.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver._wx25hooks' from '/usr/lib/wingide6/src/debug/tserver/_wx25hooks.py'> '; ' "'/usr/lib/wingide6/src/debug/tserver/_wx25hooks.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver._gtkhooks' from '/usr/lib/wingide6/src/debug/tserver/_gtkhooks.py'> '; ' "'/usr/lib/wingide6/src/debug/tserver/_gtkhooks.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver.extregistry' from '/usr/lib/wingide6/bin/dbg/src/debug/tserver/extregistry.py'> '; ' "'/usr/lib/wingide6/bin/dbg/src/debug/tserver/extregistry.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver._django' from '/usr/lib/wingide6/src/debug/tserver/_django.py'> '; ' "'/usr/lib/wingide6/src/debug/tserver/_django.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver.dbgutils' from '/usr/lib/wingide6/bin/dbg/src/debug/tserver/dbgutils.py'> '; ' "'/usr/lib/wingide6/bin/dbg/src/debug/tserver/dbgutils.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver.constants' from '/usr/lib/wingide6/bin/dbg/src/debug/tserver/constants.py'> '; ' "'/usr/lib/wingide6/bin/dbg/src/debug/tserver/constants.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver.netserver' from '/usr/lib/wingide6/bin/dbg/src/debug/tserver/netserver.py'> '; ' "'/usr/lib/wingide6/bin/dbg/src/debug/tserver/netserver.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver._wxhooks' from '/usr/lib/wingide6/src/debug/tserver/_wxhooks.py'> '; ' "'/usr/lib/wingide6/src/debug/tserver/_wxhooks.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver.dbgconfig' from '/usr/lib/wingide6/bin/dbg/src/debug/tserver/dbgconfig.py'> '; ' "'/usr/lib/wingide6/bin/dbg/src/debug/tserver/dbgconfig.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver._zopehooks' from '/usr/lib/wingide6/src/debug/tserver/_zopehooks.py'> '; ' "'/usr/lib/wingide6/src/debug/tserver/_zopehooks.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver._tkinterhooks' from '/usr/lib/wingide6/src/debug/tserver/_tkinterhooks.py'> '; ' "'/usr/lib/wingide6/src/debug/tserver/_tkinterhooks.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver._wxhooks' from '/usr/lib/wingide6/src/debug/tserver/_wxhooks.py'> '; ' "'/usr/lib/wingide6/src/debug/tserver/_wxhooks.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver._gtkhooks' from '/usr/lib/wingide6/src/debug/tserver/_gtkhooks.py'> '; ' "'/usr/lib/wingide6/src/debug/tserver/_gtkhooks.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver._django' from '/usr/lib/wingide6/src/debug/tserver/_django.py'> '; ' "'/usr/lib/wingide6/src/debug/tserver/_django.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver._matplotlib' from '/usr/lib/wingide6/src/debug/tserver/_matplotlib.py'> '; ' "'/usr/lib/wingide6/src/debug/tserver/_matplotlib.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Registering internal module: ' <module 'debug.tserver._wx25hooks' from '/usr/lib/wingide6/src/debug/tserver/_wx25hooks.py'> '; ' "'/usr/lib/wingide6/src/debug/tserver/_wx25hooks.py'" 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'RESET' 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Acquiring dbgserver mutex in RunWithDbgServerMutex' 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Releasing dbgserver mutex in RunWithDbgServerMutex' 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'setting __fClient to' <debug.tserver.netserver.CNetworkServer instance at 0x7f199f073170> 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'RESET' 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Acquiring dbgserver mutex in RunWithDbgServerMutex' 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Releasing dbgserver mutex in RunWithDbgServerMutex' 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Acquiring dbgserver mutex in RunWithDbgServerMutex' 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Connecting to client 124.202.206.158:50005...' 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'Connected to client' 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'netserver executing' '0x11004' None 
+wingdbg - 2017/05/27 03:22:14 - 3310 - 'netserver sending back' '0x1016' ('0.0.0.0', 50015, 3310, u'wingtest.py', 'sqb9dhBVPCVeKyBJ', 19, 1, 34016752, None) 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'netserver executing' '0x30004' (1, [], [], [(u'f:\\gtest\\wingtest\\src\\wingtest.py', 8, 0, None, 1, 0), (u'f:\\gtest\\wingtest\\src\\wingtest.py', 10L, 0, None, 1, 0), (u'f:\\gtest\\wingtest\\src\\wingtest.py', 5, 0, None, 1, 0), (u'f:\\gtest\\wingtest\\src\\wingtest.py', 7L, 0, None, 1, 0)]) 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'SERVER SIDE UPDATE BREAKS' [] 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'SERVER SIDE SET BREAKS' [(u'f:\\gtest\\wingtest\\src\\wingtest.py', 8, 0, None, 1, 0), (u'f:\\gtest\\wingtest\\src\\wingtest.py', 10L, 0, None, 1, 0), (u'f:\\gtest\\wingtest\\src\\wingtest.py', 5, 0, None, 1, 0), (u'f:\\gtest\\wingtest\\src\\wingtest.py', 7L, 0, None, 1, 0)] 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'setting BP at 8 in f:\\gtest\\wingtest\\src\\wingtest.py' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'setting BP at 10 in f:\\gtest\\wingtest\\src\\wingtest.py' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'setting BP at 5 in f:\\gtest\\wingtest\\src\\wingtest.py' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'setting BP at 7 in f:\\gtest\\wingtest\\src\\wingtest.py' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'netserver sending back' '0x5' (1, [1, 2, 3, 4]) 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'netserver executing' '0x12003' None 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'netserver executing' '0x12004' ({'debug-all-threads': True, 'use-stdin-wrapper': 1, 'allow-dynamic-introspection': False, 'resolve-properties': False, 'always-stop-exceptions': ['AssertionError'], 'sub-languages': True, 'use-members-attrib': 1, 'replace-sys-executable': True, 'stop-timeout': 3.0, 'matplotlib-event-loop': True, 'allow-bytecode-repr': True, 'sub-process-port': -1, 'never-stop-exceptions': ['SystemExit', 'GeneratorExit']},) 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'netserver executing' '0x12001' (5,) 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'Set exception mode' 5 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'Set sys.excepthook' <bound method CWhenPrintExceptionSupport.__ExceptHook of <debug.tserver.dbgutils.CWhenPrintExceptionSupport instance at 0x7f199f0d8c68>> 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'netserver executing' '0x12005' (('function', 'builtin_function_or_method', 'class', 'classobj', 'instance method', 'type', 'module', 'ufunc', 'wrapper_descriptor', 'method_descriptor', 'member_descriptor'), (), ('GdkColormap', 'IOBTree', 'JPackage')) 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'netserver executing' '0x12006' (65, 2000, 64000) 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'netserver executing' '0x11002' None 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'Releasing dbgserver mutex in RunWithDbgServerMutex' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'STARTING DEBUG' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - '__CheckFloatingPointMode' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'RESET' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - '_CB_DebugThread called with thread_id =' 33898656L 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'Policies are:' {} 
+wingdbg - 2017/05/27 03:22:15 - 3310 - '_CB_DebugThread returning' 1 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'Acquiring dbgserver mutex in RunWithDbgServerMutex' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'Releasing dbgserver mutex in RunWithDbgServerMutex' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'ProgramQuit called' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'STOPPING DEBUG' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'RESET' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'setting __fClient to' None 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'RESET' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - <bound method CDbgServer.destroy of <debug.tserver.dbgserver.CDbgServer instance at 0x7f199f1816c8>> 'called' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'RESET' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'netserver CLOSECHANNEL' 
+wingdbg - 2017/05/27 03:22:15 - 3310 - 'Closing attach listener socket' 

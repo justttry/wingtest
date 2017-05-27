@@ -57,7 +57,7 @@ kWingDebugDisabled = 0
 # Host:port of the IDE within which to debug: As configured in the IDE
 # with the Server Port preference
 # (WINGDB_HOSTPORT environment variable)
-kWingHostPort = '223.72.72.82:50005'
+kWingHostPort = '124.202.206.158:50005'
 
 # Port on which to listen for connection requests, so that the
 # IDE can (re)attach to the debug process after it has started
@@ -75,7 +75,7 @@ kAttachPort = '50015'
 # "<stderr>" or "<stdout>".  Note that "<stderr>" may cause problems 
 # on win32 if the debug process is not running in a console.
 # (WINGDB_LOGFILE environment variable)
-kLogFile = None
+kLogFile = '/home/ubuntu/gtest/wingtest/src/kLogFile'
 
 # Set to get a tremendous amount of logging from the debugger internals
 # (WINGDB_LOGVERYVERBOSE)
@@ -114,7 +114,7 @@ kExitOnFailure = 0
 # Edit this to point to your Wing installation or set to None to use env WINGHOME
 # On OS X this must be set to name of the Wing application bundle
 # (for example, /Applications/WingIDE.app)
-WINGHOME = r"C:\Program Files (x86)\Wing IDE 6.0"
+WINGHOME="/usr/lib/wingide6"
 
 if sys.hexversion >= 0x03000000:
   def has_key(o, key):
